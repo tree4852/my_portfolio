@@ -10,14 +10,17 @@
     <!-- 폰트/woff2-->
     <link rel="stylesheet" href="/css/reset.min.css">
     <link rel="stylesheet" href="/css/boot.css?version=5.0&Worker=BBY">
+    <link rel="stylesheet" href="/css/layout.min.css">
     <!-- 내꺼 / min -->
 </head>
 <body>
-  <header id="hd" class="border-bottom fixed-top bg-white">
+  <header id="hd" class="border-bottom fixed-top ">
     <nav class="navbar navbar-expand-md ">
         <div class="container-lg">
             <h1>
-                <a class="navbar-brand" href="#">svg로고만들기</a>
+                <a class="navbar-brand" href="#">
+                  <span>윤여선<span>대박임</span></span>
+                </a>
             </h1>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -56,7 +59,7 @@
                 </ul>
               </li>
               <li class="nav-item dropdown">                  
-                <a class="nav-link dropdown-toggle" href="#" role="button" 
+                <a class="nav-link dropdown-toggle" href="#community" role="button" 
                 data-bs-toggle="dropdown" aria-expanded="false">
                   Communication
                 </a>
@@ -66,9 +69,18 @@
                   <li><a class="dropdown-item" href="#community">Notion</a></li>
                 </ul>
               </li> 
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact me</a>
-              </li>                
+              <li class="nav-item dropdown">                  
+                <a class="nav-link dropdown-toggle" href="#" role="button" 
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Contact me
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#contact">Figma</a></li>
+                  <li><a class="dropdown-item" href="#contact">Git</a></li>                      
+                  <li><a class="dropdown-item" href="#contact">Notion</a></li>
+                </ul>
+              </li> 
+                           
             </ul>
             <ul class="Communication-navi d-flex align-items-center ps-0 mb-0">
               <li><a class="pe-2" href="#" target="_blank">Figma</a></li>
@@ -104,7 +116,7 @@
 </section>
 <section id="team-portfolio" class="vh-100 bg-dark"></section>
 <section id="community" class="vh-100 bg-light"></section>
-<section id="contact" class="vh-100 bg-warning"></section>
+<section id="contact" class="vh-100 bg-success"></section>
 <!-- 검정배경의 하얀색글자 동그랗게 오른쪽 하단 있게 -->
 <a href="#top" class="position-fixed bg-dark text-white rounded-circle end-0 bottom-0">
   위로
